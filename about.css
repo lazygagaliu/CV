@@ -1,0 +1,70 @@
+body{
+	margin:0px;
+	background-color:#dddddd;
+	display:flex;
+	flex-direction:column; /* 由上到下排列 */
+	min-height:100vh; /* 可大於但不可小於 整個瀏覽器可視範圍 */
+}
+.nav{
+	float:right;max-width:100%;
+	font-family:verdana;font-size:14px;
+	padding-top:18px;margin-right:50px;
+}
+.h3{
+	font-family:verdana;
+	margin-left:50px;
+}
+.h4{
+	font-family:verdana;font-weight:normal;font-style:italic;
+	margin:30px 130px;
+}
+.itd{
+	margin:10px 80px;
+	line-height:24px;
+	font-family:Calibri;
+}
+.img{
+	margin:10px;
+	
+}
+.div{
+	border-style:groove;border-radius:10px;margin:20px;
+	padding-top:17px;
+	width:37%;
+	text-align:center;font-family:verdana;font-size:16px;
+	
+}
+.content{
+	font-size:12px;padding:7px;
+	line-height:20px;
+}
+.li{
+	margin:15px 12px; font-size:13px;
+	
+}
+.itr{
+	margin:70px;
+	font-family:verdana;font-size:14px;line-height:24px;
+	
+}
+.video{
+	float:left;
+	margin:50px 50px;max-width:100%
+}
+.videor{
+	float:right;
+	margin:50px 50px;max-width:100%
+}
+.con{
+	margin:15px 12px 15px 0px; font-size:13px;	
+}
+.form{
+	margin:0px 12px 15px 0px; font-size:16px;
+	width:380px;padding:8px;font-family:Calibri;
+	border-style:groove;border-radius:5px;
+}
+.btn{
+	font-size:16px;font-family:Calibri;background-color:#BE1414;
+	border-color:#A00303;padding:8px;color:#fff;
+	border-style:groove;border-radius:5px;
+}
